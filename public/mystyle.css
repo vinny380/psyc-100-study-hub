@@ -1,0 +1,60 @@
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+    
+#div1out {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+    
+#whenSignedOut {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.722);
+    border-radius: 10px;
+    padding: 1rem;
+    width: 20%;
+    height: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+    
+#welcome,
+ #logInGoogle {
+    color: white;
+    text-align: center;
+    opacity: 1 !important;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+    
+#logInGoogle {
+    background-color: white;
+    color: black;
+    border: none;
+    opacity: 1 !important;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#logInGoogle:hover {
+    background-color: rgb(208, 46, 46);
+    color: rgb(233, 227, 45);
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all 0.2s ease-in-out;
+    }
